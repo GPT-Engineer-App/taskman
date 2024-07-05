@@ -5,6 +5,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { navItems } from "../App";
+import { cn } from "@/lib/utils"; // Import the cn utility
 
 const Sidebar = () => {
   const [projects, setProjects] = useState([]);
